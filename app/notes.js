@@ -6,6 +6,8 @@ const addNotes = (title, body) => {
 
   const duplicateNote = notes.find((e) => e.title === title);
 
+  debugger;
+
   if (duplicateNote) {
     console.log("title taken!");
   } else {
